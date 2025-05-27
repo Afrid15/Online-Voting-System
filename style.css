@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+	background: #151c1e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #080808;
+	padding: 30px;
+	background: linear-gradient(45deg,#081b29,#0ef);
+	border-radius: 15px;
+	box-shadow: 0 0 25px #0ef;
+	box-sizing: border-box;
+	border: 3px solid black;
+
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+input {
+	display: block;
+	border: 2px solid #9e85ea;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+	background-color: #555;
+	box-shadow: 0 0 10px #F2DEDE;
+}
+label {
+	position: relative;
+	color: #0d0101;
+	font-size: 15px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+	transition: .5s;
+	border-bottom: #0ef;
+	background: transparent;
+	outline: none;
+	
+}
+
+.btn {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+.btn:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+.icon{
+	position: absolute;
+	margin: auto;
+	margin-top: 25px;
+	margin-left: 375px;
+}
+.icon-lock{
+	position: absolute;
+	margin: auto;
+	margin-top:-50px;
+	margin-left: 375px;
+}
+.name{
+	position: absolute;
+	margin: auto;
+	margin-top: 25px;
+	margin-left: 380px;
+}
+.user-name{
+	position: absolute;
+	margin: auto;
+	margin-top: 25px;
+	margin-left: 380px;
+}
+.pass{
+	position: absolute;
+	margin: auto;
+	margin-top: 25px;
+	margin-left: 380px;
+}
+.pass1{
+	position: absolute;
+	margin: auto;
+	margin-top: 25px;
+	margin-left: 380px;
+}
+.login{
+    margin-left:380px;
+	margin-top: -80px;
+	
+	color: #080808;
+	border: 1px solid #000000; 
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000000;
+	
+
+
+}
