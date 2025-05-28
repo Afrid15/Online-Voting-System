@@ -18,19 +18,6 @@ This system replaces traditional SMS and phone-based voting methods with an inte
 - **Data Security**: Only admins can access vote data.
 - **Scalable**: Designed to handle high volumes of votes efficiently.
 
-## 📂 Project Structure
-project-root/
-│
-├── admin/ # Admin pages
-├── user/ # User voting pages
-├── auth/ # Login and registration
-├── css/ # Stylesheets
-├── sql/ # Database structure
-├── index.html # Entry point
-├── app.py # Python backend logic
-├── vote_logic.php # PHP voting functions
-└── README.md # Project documentation
-
 
 ## 🖥️ Technologies Used
 
